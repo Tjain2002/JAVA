@@ -32,7 +32,6 @@ public class Quicksort {
         quicksort(arr, pivot + 1, high);
 
     }
-
     public static void main(String[] args) {
         int arr[] = { 2, 1, 5, 7, 4, 3 };
         int high = arr.length - 1;

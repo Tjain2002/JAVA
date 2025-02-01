@@ -21,11 +21,12 @@ public class gcd4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // int a = sc.nextInt();
-        // int b = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
         // int gcd = gcd(a, b);
         // System.out.println(gcd);
         String str ="tanu jain";
+        
         char ch= str.charAt(0);
         String str1= str.trim();
 
@@ -34,7 +35,8 @@ public class gcd4 {
     
     System.out.println(" "+str1);
 
-        
+      int arr= gcd(a,b);  
+
         // System.out.println(str1[0]);
 
     

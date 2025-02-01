@@ -124,16 +124,16 @@ public class BinaryTree {
         Node root = null;
         root = b.tree(root);
 
-        //  preorder(root);
-        levelorder(root);
-        // System.out.println(root.data);
-        int sum = count(root);
-        System.out.println("sum=" + sum);
+        // //  preorder(root);
+        // levelorder(root);
+        // // System.out.println(root.data);
+        // int sum = count(root);
+        // System.out.println("sum=" + sum);
 
-        int n = countnodes(root);
-        System.out.println("number of nodes =" + n);
-        int h = height(root);
-        System.out.println("height=" + h);
+        // int n = countnodes(root);
+        // System.out.println("number of nodes =" + n);
+        // int h = height(root);
+        // System.out.println("height=" + h);
 
     }
 

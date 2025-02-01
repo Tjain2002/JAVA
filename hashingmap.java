@@ -32,9 +32,9 @@ public static void main(String[]args)
     //   Iteration in hashmap
     for(Map.Entry<String,Integer>e:map.entrySet())
     {
-        System.out.println(e.getKey());
+        System.out.println("key"+e.getKey());
         
-        System.out.println(e.getValue());
+        System.out.println("value"+e.getValue());
 
     }
     Set<String>key=map.keySet();

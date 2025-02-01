@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class alternatenegpos {
     public static void main(String[] args) {
         int arr[] = { -5, -2, 5, 2, 4, 7, 1, 8, 0, -8 };
@@ -16,6 +18,8 @@ public class alternatenegpos {
             }
         }
 
+
+        // Arrays.equals(arr1,arr2);
         int arr1[] = new int[n];
         int i = 0, j = 0, k = 0;
         boolean positive = true;

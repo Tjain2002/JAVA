@@ -5,19 +5,21 @@ public class addnumberinstring {
 
     public static int sum(String str) {
         int sum = 0;
+        String s1="";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
+            
 
            // System.out.println("a" + a);
             if (Character.isDigit(ch))
 
             {
-
-                int a = ch - '0';
-                sum = sum + a;
-                System.out.println(sum);
+                 s1=s1+ch;
+        
             }
         }
+
+        System.out.println("s1="+s1);
         return sum;
     }
 

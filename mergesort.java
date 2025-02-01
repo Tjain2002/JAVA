@@ -47,8 +47,8 @@ public class mergesort {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 8, 4, 5, 6, 12, 8 };
-        int n = arr.length;
+        int arr[] = { 4,5,1,3};
+        int n=4;
         int s=0;
         divide(arr,s, n - 1);
         for (int i = 0; i < arr.length; i++) {

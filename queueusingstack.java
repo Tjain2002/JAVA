@@ -11,13 +11,19 @@ public class queueusingstack {
         }
         public static void add(int data)
         {
+
+
+
+                    //    s1.add(data);
                        while(!s1.isEmpty())
                        {
                         s2.push(s1.pop());
 
 
+
                        }
-                       s1.push(data);
+                       s1.add(data);
+                       
                        while(!s2.isEmpty())
                        {
                         s1.push(s2.pop());
@@ -61,5 +67,11 @@ public class queueusingstack {
             System.out.println(q.peek());
             q.remove();
         }
+        
+
+
+
+
+
     }
 }
