@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "slidingwindow",
+            "request": "launch",
+            "mainClass": "slidingwindow",
+            "projectName": "java_ab2d3beb"
+        },
+        {
+            "type": "java",
+            "name": "prefix",
+            "request": "launch",
+            "mainClass": "prefix",
+            "projectName": "java_ab2d3beb"
+        },
+        {
+            "type": "java",
             "name": "linkedlistiplementend",
             "request": "launch",
             "mainClass": "linkedlistiplementend",

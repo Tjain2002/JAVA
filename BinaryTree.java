@@ -115,6 +115,7 @@ public class BinaryTree {
         int leftheight = height(root.left);
         int rightheight = height(root.right);
         return Math.max(leftheight, rightheight) + 1;
+        // Arrays.equals(str1,str2);
     }
 
     public static void main(String[] args) {
